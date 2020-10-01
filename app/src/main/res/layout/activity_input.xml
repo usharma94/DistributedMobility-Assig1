@@ -69,7 +69,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/gap2"
-        android:text="@string/send" />
+        android:text="@string/play" />
 
     <Space
         android:layout_width="match_parent"
@@ -78,7 +78,7 @@
 
     <TextView
         android:id="@+id/sheridan"
-        android:text="@string/sheridan"
-        style="@style/sheridan_label" />
+        android:text="@string/name"
+        style="@style/name_label" />
 
 </LinearLayout>

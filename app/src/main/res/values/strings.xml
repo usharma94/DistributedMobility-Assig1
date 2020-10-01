@@ -6,16 +6,12 @@
     <string name="rad_paper">Paper</string>
     <string name="rad_scissors">Scissors</string>
 
-    <!-- urgent / not urgent -->
-    <string name="urgent">Urgent</string>
-    <string name="not_urgent">Not Urgent</string>
-
     <string name="select_message">Select one:</string>
     <string name="message_label">Received message</string>
     <string name="undefined">Undefined</string>
 
     <!-- the button labels -->
-    <string name="send">Send</string>
+    <string name="play">Play</string>
     <string name="close">Play Again</string>
 
     <!-- the activity labels -->
@@ -23,8 +19,11 @@
     <string name="output_activity">Output Activity</string>
 
     <!-- the floating label -->
-    <string name="sheridan">Upma, 2020</string>
+    <string name="name">Upma, 2020</string>
+
+    <!-- game outcome   -->
     <string name="You">Player: \u0020</string>
     <string name="Computer">Computer: \u0020</string>
+    <string name="game_outcome">Game outcome</string>
 
 </resources>

@@ -13,7 +13,6 @@
             super.onCreate(savedInstanceState)
             binding = ActivityInputBinding.inflate(layoutInflater)
             setContentView(binding.root)
-
             binding.sendButton.setOnClickListener{showOutput()}
         }
 
@@ -37,6 +36,7 @@
             }
             startActivity(intent)
         }
+
         private fun computerPlay(): String {
             val list = arrayOf("Rock", "Paper", "Scissors")
             val r = Random()
@@ -48,9 +48,9 @@
         }
 
         private fun checkPlayerIsWinner(player: String, computer: String): Boolean {
-                return (player == "Rock" && computer == "Scissors") ||
-                        (player == "Paper" && computer == "Rock") ||
-                        (player == "Scissors" && computer == "Paper")
+            return (player == "Rock" && computer == "Scissors") ||
+                    (player == "Paper" && computer == "Rock") ||
+                    (player == "Scissors" && computer == "Paper")
         }
 
         private  fun getWinner(tie: Boolean, playerOneWin: Boolean): String{

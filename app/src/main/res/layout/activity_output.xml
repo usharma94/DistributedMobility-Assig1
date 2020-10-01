@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,6 +18,14 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/game_img"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/game_outcome"
+        tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
         android:id="@+id/message_label"
@@ -46,7 +55,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:background="#E0F2F1"
         android:text="@string/undefined"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
@@ -65,6 +73,7 @@
 
     <TextView
         android:id="@+id/sheridan"
-        android:text="@string/sheridan"
-        style="@style/sheridan_label" />
+        android:text="@string/name"
+        style="@style/name_label" />
+
 </LinearLayout>
