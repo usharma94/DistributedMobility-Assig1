@@ -20,8 +20,8 @@ class OutputActivity   : AppCompatActivity(){
         setContentView(binding.root)
         binding.messageText.text = getString(R.string.You) + intent.getStringExtra(MESSAGE_TEXT_KEY)
         binding.computerPlayText.text = getString(R.string.Computer) + intent.getStringExtra(COMPUTER_PLAY)
-        println("this is me")
-        println(intent.getStringExtra(WINNER))
+
+//        Logic to display image based on who wins the game
         if(intent.getStringExtra(WINNER) == "You Win"){
             game_img.setImageResource(R.drawable.ic_baseline_mood_24)
         }else if(intent.getStringExtra(WINNER) =="Computer Wins"){
@@ -29,7 +29,8 @@ class OutputActivity   : AppCompatActivity(){
         }else{
             game_img.setImageResource(R.drawable.ic_baseline_block_24)
         }
-        binding.isUrgentOutput.text = intent.getStringExtra(WINNER)
+
+        binding.winnerOutput.text = intent.getStringExtra(WINNER)
 
         // make the close button work
         binding.closeButton.setOnClickListener { finish() }

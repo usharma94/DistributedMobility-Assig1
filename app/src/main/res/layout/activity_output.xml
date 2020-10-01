@@ -35,11 +35,13 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
     <TextView
-        android:id="@+id/is_urgent_output"
+        android:id="@+id/winner_output"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/gap0"
         android:text="@string/undefined"
+        android:textStyle="bold"
+        android:textSize="50dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <TextView

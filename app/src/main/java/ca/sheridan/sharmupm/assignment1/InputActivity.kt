@@ -55,13 +55,10 @@
 
         private  fun getWinner(tie: Boolean, playerOneWin: Boolean): String{
             if(tie){
-                println("TIE")
                 return "TIE"
             }else if(playerOneWin){
-                println("You win")
                 return "You Win"
             }else{
-                println("Computer Wins")
                 return "Computer Wins"
             }
         }

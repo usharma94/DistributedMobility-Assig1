@@ -8,11 +8,11 @@
     </style>
 
     <style name="InputTheme" parent="AppTheme">
-        <item name="android:background">@color/Teal50</item>
+        <item name="android:background">@color/White</item>
     </style>
 
     <style name="OutputTheme" parent="AppTheme">
-        <item name="android:background">@color/Yellow200</item>
+        <item name="android:background">@color/LightGreen</item>
     </style>
 
     <style name="activity_label">
@@ -33,13 +33,7 @@
         <item name="android:fontFamily">sans-serif</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
-        <item name="android:textColor">@color/Orange500</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-    <style name="computer_play_text">
-        <item name="android:fontFamily">sans-serif</item>
-        <item name="android:textAllCaps">true</item>
-        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+        <item name="android:textColor">@color/BtnBlue</item>
         <item name="android:textStyle">bold</item>
     </style>
 
